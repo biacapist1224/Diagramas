@@ -1,9 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T15:44:46.459Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0" etag="eg4yGG8O6FfmAddfuO9n" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T16:00:14.018Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0" etag="kedlrWMiBGccIoh1HulX" version="21.6.9" type="github">
   <diagram name="Página-1" id="heroG2rJyX7WdMRHap27">
     <mxGraphModel dx="1434" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-6" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Escola&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-10" value="&lt;b&gt;&lt;font face=&quot;Courier New&quot;&gt;Turmas&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="870" y="505" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-11" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Salas&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="460" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-12" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Aulas&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="75" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-13" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-14" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="350" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-15" value="&lt;font face=&quot;Courier New&quot;&gt;&lt;b&gt;Professores&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="75" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-16" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="110" as="sourcePoint" />
+            <mxPoint x="350" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-17" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OuG5-IgD-kDxBcg2Wila-16">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="109.5" as="sourcePoint" />
+            <mxPoint x="630" y="109.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-19" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OuG5-IgD-kDxBcg2Wila-18">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="109.5" as="sourcePoint" />
+            <mxPoint x="960" y="109.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-21" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OuG5-IgD-kDxBcg2Wila-20">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="109.5" as="sourcePoint" />
+            <mxPoint x="1240" y="109.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-23" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OuG5-IgD-kDxBcg2Wila-22">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-24" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="714.5" y="145" as="sourcePoint" />
+            <mxPoint x="714.5" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-25" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OuG5-IgD-kDxBcg2Wila-24">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-26" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="655" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="329" as="sourcePoint" />
+            <mxPoint x="720" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-29" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OuG5-IgD-kDxBcg2Wila-28">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="145" as="sourcePoint" />
+            <mxPoint x="1330" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-31" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="OuG5-IgD-kDxBcg2Wila-30">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OuG5-IgD-kDxBcg2Wila-32" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
