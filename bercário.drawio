@@ -1,9 +1,63 @@
-<mxfile host="app.diagrams.net" modified="2023-09-22T16:05:56.981Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0" version="21.6.9" etag="wcLJG-zxzehMEtOcvJ8z" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-22T17:37:54.501Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:103.0) Gecko/20100101 Firefox/103.0" etag="QWjMF00XbT1rM6bLvr0E" version="21.6.9" type="github">
   <diagram name="Página-1" id="GX35o2Giz46ow_KEGeGn">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-16" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;fontStyle=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="yYLAeSSYPrPoMOqdj-fb-15">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="970" y="180" as="sourcePoint" />
+            <mxPoint x="570" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-4" value="médico" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="100" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-5" value="&lt;div&gt;CRM&lt;/div&gt;&lt;div&gt;nome&lt;/div&gt;&lt;div&gt;telefone&lt;/div&gt;&lt;div&gt;especialidade&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="yYLAeSSYPrPoMOqdj-fb-4">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-6" value="mãe" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="120" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-7" value="&lt;div&gt;nome &lt;br&gt;&lt;/div&gt;&lt;div&gt;endereço&lt;/div&gt;&lt;div&gt;telefone &lt;br&gt;&lt;/div&gt;&lt;div&gt;data de nascimento&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="yYLAeSSYPrPoMOqdj-fb-6">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-8" value="bebê" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-9" value="&lt;div&gt;Nome&lt;/div&gt;&lt;div&gt;peso&lt;/div&gt;&lt;div&gt;data de nascimento&lt;/div&gt;&lt;div&gt;altura&lt;/div&gt;&lt;div&gt;mãe&lt;/div&gt;&lt;div&gt;médico&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="yYLAeSSYPrPoMOqdj-fb-8">
+          <mxGeometry y="50" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="210" y="190" as="sourcePoint" />
+            <mxPoint x="270" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-12" value="realizar o parto" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="270" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="390" y="389.5" as="sourcePoint" />
+            <mxPoint x="540" y="389.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="389.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="690" y="350" as="sourcePoint" />
+            <mxPoint x="720" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yYLAeSSYPrPoMOqdj-fb-15" value="&lt;div&gt;ter&lt;/div&gt;" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="720" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
